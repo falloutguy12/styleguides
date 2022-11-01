@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "Archivo Black";
+    src: url("fonts/Archivo-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Archivo Black Italic";
+    src: url("fonts/Archivo-BoldItalic.ttf");
+}
+@font-face {
+    font-family: "Archivo Black Medium";
+    src: url("fonts/Archivo-Medium.ttf");
+}
+@font-face {
+    font-family: "Abhaya Libre XBold";
+    src: url("fonts/AbhayaLibre-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Abhaya Libre Medium";
+    src: url("fonts/AbhayaLibre-Medium.ttf");
+}
+@font-face {
+    font-family: "Abhaya Libre Regular";
+    src: url("fonts/AbhayaLibre-Regular.ttf");
+}
+@font-face {
+    font-family: "Aileron Regular";
+    src: url("fonts/Aileron-Regular.otf");
+}
+@font-face {
+    font-family: "Aileron Bold";
+    src: url("fonts/Aileron-Bold.otf");
+}
+@font-face {
+    font-family: "Aileron Heavy";
+    src: url("fonts/Aileron-Heavy.otf");
+}
+@font-face {
+    font-family: "Aileron Italic";
+    src: url("fonts/Aileron-Italic.otf");
+}
+.archivo-label {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 26px;
+}
+.archivo-black {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 18px;
+}
+.archivo-medium {
+    font-family: "Archivo Black Medium", sans-serif;
+    font-size: 18px;
+}
+.archivo-italic {
+    font-family: "Archivo Black Italic", sans-serif;
+    font-size: 18px;
+}
+.archivo-stock {
+    font-family: "Archivo Black", sans-serif;
+}
+.abhaya-label {
+    font-family: "Abhaya Libre XBold", serif;
+    font-size: 26px;
+}
+.abhaya-regular {
+    font-family: "Abhaya Libre Regular", serif;
+    font-size: 18px;
+}
+.abhaya-stock {
+    font-family: "Abhaya Libre Regular", serif;
+    font-size: 18px;
+}
+.abhaya-medium {
+    font-family: "Abhaya Libre Medium", serif;
+    font-size: 18px;
+}
+.abhaya-extrabold {
+    font-family: "Abhaya Libre XBold", serif;
+    font-size: 18px;
+}
+.aileron-label {
+    font-family: "Aileron Regular", sans-serif;
+    font-size: 26px;
+}
+.aileron-stock {
+    font-family: "Aileron Regular", sans-serif;
+}
+.aileron-bold {
+    font-family: "Aileron Bold", sans-serif;
+    font-size: 18px;
+}
+.aileron-heavy {
+    font-family: "Aileron Heavy", sans-serif;
+    font-size: 18px;
+}
+.aileron-regular {
+    font-family: "Aileron Regular", sans-serif;
+    font-size: 18px;
+}
+.aileron-italic {
+    font-family: "Aileron Italic", sans-serif;
+    font-size: 18px;
+}
+.jumbotron {
+    background-image: url(media/nc-tx\ \(1000\ ×\ 500\ px\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+.jumbo-header {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 32px;
+    color: rgb(216, 216, 216);
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: 8%;
+    text-align: center;
+}
+.colors-container {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+}
+.colors-container h2 {
+    font-family: "Abhaya Libre XBold";
+    font-size: 30px;
+}
+.colors-container p {
+    font-family: "Aileron Regular";
+}
+#bluebox {
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    text-align:center;
+    margin: 8px;
+    background-color: #1a1464;
+    color: white;
+}
+#blackbox {
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    text-align:center;
+    margin: 8px;
+    background-color: #000000;
+    color: white;
+
+}
+#graybox {
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    text-align:center;
+    margin: 8px;
+    background-color: #9a9a9a;
+}
+#orangebox{
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    text-align:center;
+    margin: 8px;
+    background-color: #fdc773;
+    margin-left: 16%;
+}
+#yellowbox {
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    text-align:center;
+    margin: 8px;
+    background-color: #e5f77d;
+}
+.font-container {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+.font-container h2 {
+    font-family: "Abhaya Libre XBold";
+    font-size: 30px;
+    text-decoration: underline #fdc773;
+}
+
+.f-panel-archivo {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+.f-panel-abhaya {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+}
+.f-panel-aileron {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 22%;
+}
+.txt-style-container {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+.txt-style-subcontainer {
+    margin-left: 10%;
+}
+.txt-style-subcontainer li {
+    line-height: 1.5;
+}
+.txt-style-container h1.archivo-stock {
+    background-image: linear-gradient(to right, black, #1a141a, blue, lightblue);
+    color: white;
+    padding-left: 1%;
+}
+.breadcrumb { 
+    list-style: none; 
+    overflow: hidden; 
+    font: 18px Sans-Serif;
+}
+.breadcrumb li { 
+    float: left; 
+}
+.breadcrumb li a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 0 10px 65px;
+    background-image: linear-gradient(to right, black, #1a141a, blue, lightblue);
+    position: relative; 
+    display: block;
+    float: left;
+}
+.breadcrumb li a::after { 
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid lightblue;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; 
+    left: 100%;
+    z-index: 2; 
+}
+.breadcrumb li a::before { 
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 50px solid transparent;       
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; 
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1; 
+}
+.breadcrumb li a:hover {
+    font-weight: bolder;
+    text-decoration: underline white;
+}
+.gradient-style-container {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 25px;
+    font-family: "Abhaya Libre Xbold";
+}
+.gradient-style-container p {
+    height: 100px;
+    background-image: linear-gradient(to right, black, #1a141a, blue, lightblue);
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+}

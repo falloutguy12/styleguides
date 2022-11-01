@@ -1,0 +1,235 @@
+@font-face {
+    font-family: "Gorditas Regular";
+    src: url("fonts/Gorditas-Regular.ttf");
+}
+@font-face {
+    font-family: "Gorditas Bold";
+    src: url("fonts/Gorditas-Bold.ttf");
+}
+.jumbotron {
+    background-image: url(media/nc-tx\ \(1000\ ×\ 500\ px\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+.jumbo-header {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 32px;
+    color: #FA0000;
+    text-shadow: 2px 2px #EEE2DF;
+    position: relative;
+    top: 8%;
+    text-align: center;
+}
+.gordita-h2 {
+    font-family: "Gorditas Bold", serif;
+}
+.main-section-container {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #040F16;
+}
+.main-section-container h2 {
+  text-align: center;
+  color: #040F16;
+  background-image: linear-gradient(to right, #FA0000, #15FF00, #EEE2DF, #EEE2DF, #EEE2DF, #15FF00, #FA0000);
+  text-shadow: #15FF00 1px 1px 1px ;
+}
+.breadcrumb { 
+    list-style: none; 
+    overflow: hidden; 
+    font: 18px Sans-Serif;
+}
+.breadcrumb li { 
+    float: left; 
+}
+.breadcrumb li a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 0 10px 65px;
+    background-image: linear-gradient(to right, #040F16, #040F16, #FA0000, #FA0000);
+    position: relative; 
+    display: block;
+    float: left;
+}
+.breadcrumb li a::after { 
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #FA0000;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; 
+    left: 100%;
+    z-index: 2; 
+}
+.breadcrumb li a::before { 
+    content: " "; 
+    display: block; 
+    width: 0; 
+    height: 0;
+    border-top: 50px solid transparent;       
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; 
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1; 
+}
+.breadcrumb li a:hover {
+    font-weight: bolder;
+    text-decoration: underline white;
+}
+.colors-container {
+    display: block;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px;
+}
+.colors-container h2 {
+  font-family: "Gorditas Bold";
+}
+#greenBox {
+    display: inline-block;
+    width: 30%;
+    min-height: 100px;
+    text-align:center;
+    margin: 8px;
+    background-color: #15FF00;
+    color: black;
+}
+#redBox {
+  display: inline-block;
+  width: 30%;
+  min-height: 100px;
+  text-align:center;
+  margin: 8px;
+  background-color: #FA0000;
+  color: white;
+}
+#seashellBox {
+  display: inline-block;
+  width: 30%;
+  min-height: 100px;
+  text-align:center;
+  margin: 8px;
+  background-color: #EEE2DF;
+  color: black;
+
+}
+#vivisSkyBlueBox {
+  display: inline-block;
+  width: 30%;
+  min-height: 100px;
+  text-align:center;
+  margin: 8px;
+  background-color: #23C9FF;
+  color: black;
+  margin-left: 17%;
+
+}
+#richBlackFograBox {
+  display: inline-block;
+  width: 30%;
+  min-height: 100px;
+  text-align:center;
+  margin: 8px;
+  background-color: #040F16;
+  color: white;
+
+}
+.img-1 {
+  height: 350px;
+  width: 350px;
+  border: 4px solid #EEE2DF;
+  margin: 5px;
+  bottom: 10%;
+}
+.img-2 {
+  height: 350px;
+  width: 350px;
+  border: 4px solid #EEE2DF;
+  margin: 5px;
+}
+.img-3 {
+  height: 350px;
+  width: 350px;
+  border: 4px solid #EEE2DF;
+  margin: 5px;
+}
+.img-4 {
+  height: 350px;
+  width: 350px;
+  border: 4px solid #EEE2DF;
+  margin: 5px;
+  margin-left: 25%;
+}
+.img-5 {
+  height: 350px;
+  width: 350px;
+  border: 4px solid #EEE2DF;
+  margin: 5px;
+}
+.img-6 {
+  height: 350px;
+  width: 350px;
+  border: 4px solid #EEE2DF;
+  margin: 5px;
+}
+.font-container {
+  display: block;
+  width: 80%;
+  border: 2px solid black;
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+  margin-top: 25px;
+}
+.font-container h2 {
+  font-family: "Gorditas Bold";
+  font-size: 30px;
+  text-decoration: underline #23C9FF;
+}
+.f-panel-gorditas {
+  width: 45%;
+  display: inline-block;
+  text-align: center;
+}
+.gorditas-regular {
+  font-family: "Gorditas Regular", serif;
+}
+.gorditas-bold {
+  font-family: "Gorditas Bold", serif;
+}
+.description-container {
+  display: block;
+  width: 80%;
+  border: 2px solid black;
+  position: relative;
+  margin: 10px auto;
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #040F16;
+}
+.description-container h2 {
+  font-family: "Gorditas Bold";
+  font-size: 30px;
+  text-decoration: underline #23C9FF;
+  color: #EEE2DF;
+}
+.description-container p {
+  color: #EEE2DF;
+}
