@@ -1,0 +1,2 @@
+# styleguides
+Styling guidelines pages
